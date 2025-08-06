@@ -48,7 +48,6 @@ function generateProduct(data) {
 
     moreInfoBtn.addEventListener('click', () => {
         moreInfoDiv.style.display = moreInfoDiv.style.display === 'none' ? 'block' : 'none';
-        moreInfoBtn.innerText = moreInfoDiv.style.display === 'block' ? 'Hide Info' : 'More Info';
     });
 
     productContainer.append(productTitle);
